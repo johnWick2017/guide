@@ -21,5 +21,6 @@ public class Test {
 
         List list2 = new LinkedList();
         list2.add("2");
+        list2.add(3);
     }
 }
