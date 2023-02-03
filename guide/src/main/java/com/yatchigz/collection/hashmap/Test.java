@@ -1,8 +1,7 @@
-package com.yatchigz.collection;
+package com.yatchigz.collection.hashmap;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Create on 2023-01-31
@@ -16,11 +15,10 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-        List list = new ArrayList();
-        list.add("1");
-
-        List list2 = new LinkedList();
-        list2.add("2");
-        list2.add(3);
+        Map<String, String> testMap = new HashMap<>();
+        testMap.put("1", "hello");
+        testMap.put("2", "hey");
+        testMap.put("3", "hey");
+        System.out.println(testMap.get("2"));
     }
 }
